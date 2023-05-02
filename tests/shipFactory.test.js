@@ -1,4 +1,4 @@
-import { Ship } from './shipFactory.js'
+import { Ship } from '../src/factories/shipFactory.js'
 
 describe('Ship Factory', () => {
 

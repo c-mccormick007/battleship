@@ -1,7 +1,7 @@
 import { BLANK_GAME_BOARD } from './gameboardFactory.test.js'
-import { Player } from './player.js'
-import { Gameboard } from './gameboardFactory.js'
-import { Ship } from './shipFactory.js'
+import { Player } from '../src/factories/player.js'
+import { Gameboard } from '../src/factories/gameboardFactory.js'
+import { Ship } from '../src/factories/shipFactory.js'
 
 describe('Player test', () => {
     

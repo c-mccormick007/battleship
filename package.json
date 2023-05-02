@@ -4,10 +4,10 @@
   "description": "Sink your enemies ships to win.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest tests",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack",
+    "build": "webpack --config webpack.config.js",
     "deploy": "webpack --mode production && gh-pages -d dist"
   },
   "repository": {

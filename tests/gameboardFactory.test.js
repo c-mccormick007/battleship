@@ -1,5 +1,5 @@
-import { Gameboard } from './gameboardFactory.js'
-import { Ship } from './shipFactory.js'
+import { Gameboard } from '../src/factories/gameboardFactory.js'
+import { Ship } from '../src/factories/shipFactory.js'
 
 export const BLANK_GAME_BOARD = [
     [null, null, null, null, null, null, null, null, null, null],
