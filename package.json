@@ -1,0 +1,35 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Sink your enemies ships to win.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "deploy": "webpack --mode production && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "babel-jest": "^29.5.0",
+    "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.5.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
