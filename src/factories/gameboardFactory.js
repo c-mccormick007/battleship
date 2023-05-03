@@ -31,9 +31,20 @@ export function Gameboard(){
     function receiveAttack(row, col){
         const spot = board[row][col]
         if (spot === null){
-            board[row][col] = {shot: 'fired'};
+
+          board[row][col] = {shot: 'fired'};
+          return null;
+
+        }else if (spot.shot == 'fired'){
+
+          return 'fired'
+
         }else{
-            spot.hit();
+
+          board[row][col] = {shot: 'fired'}
+          spot.hit();
+
+          return 'hit'
         }
     }
 
